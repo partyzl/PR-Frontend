@@ -1,8 +1,6 @@
 const ExplorePage = () => {
     return (
         <div className="container">
-
-
         </div>)
 }
 
