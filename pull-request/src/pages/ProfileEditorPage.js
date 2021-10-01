@@ -1,5 +1,8 @@
 const ProfileEditorPage = () => {
-    return <h1>TODO</h1>
+    return (
+        <div className="container">
+        </div>
+    )
 }
 
 export default ProfileEditorPage;
