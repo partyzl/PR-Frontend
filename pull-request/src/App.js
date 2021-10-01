@@ -1,4 +1,5 @@
 import { Navbar } from './layout';
+import { PullRequestItem } from './components';
 
 import logo from './logo.svg';
 import './App.css';
@@ -22,6 +23,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <ul>
+        <PullRequestItem handle={'@test handle'} stat={'STATUS_CONNECTED'}/>
+      </ul>
     </div>
   );
 }
