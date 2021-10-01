@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/partyzl/PR-Frontend#readme",
   "dependencies": {
-    "create-react-app": "^4.0.3"
+    "create-react-app": "^4.0.3",
+    "firebase": "^9.1.1"
   }
 }
