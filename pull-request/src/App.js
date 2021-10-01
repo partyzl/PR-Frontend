@@ -1,11 +1,17 @@
 import React from "react";
-import { LoginPage } from "./pages";
+import { githubProvider } from "./config/authMethods";
+import socialMediaAuth from "./service/auth";
+//import { LoginPage } from "./pages";
 
 function App() {
+  const handleOnClick = async (provider) => {
+    const res = await socialMediaAuth(provider);
+    console.log(res);
+  };
   return (
     <div className="App">
       <p>App</p>
-      <LoginPage />
+      <button onClick={() => handleOnClick(githubProvider)}>Github</button>
     </div>
   );
 }
