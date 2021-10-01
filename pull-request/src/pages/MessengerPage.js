@@ -1,5 +1,17 @@
+import React, { useState } from 'react';
+import { Message } from '../components';
+
 const MessengerPage = () => {
-    return <h1>TODO</h1>
+
+    const [ messages, setMessages ] = useState([]);
+
+    return (
+        <div className="container">
+            {
+                messages.map(message => <Message message={message}/>
+            }
+        </div>
+    )
 }
 
 export default MessengerPage;
