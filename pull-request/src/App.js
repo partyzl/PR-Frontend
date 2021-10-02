@@ -1,15 +1,16 @@
-import { Navbar } from './layout';
-import { PullRequestItem } from './components';
-import { MarkdownEditorPage } from './pages';
+import React from "react";
+import { LoginPage } from "./pages";
+import "./index.css";
+import { Navbar } from "./layout";
+import { PullRequestItem } from "./components";
+import { MarkdownEditorPage } from "./pages";
 
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
 
 function App() {
   return (
     <div className="App container">
-      <Navbar/>
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -24,8 +25,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <LoginPage />
       <ul>
-        <PullRequestItem handle={'@test handle'} stat={'STATUS_CONNECTED'}/>
+        <PullRequestItem handle={"@test handle"} stat={"STATUS_CONNECTED"} />
       </ul>
     </div>
   );
