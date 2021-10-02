@@ -24,8 +24,8 @@ const SignUp = styled.button`
   margin-top: 50%;
   margin-left: 45%;
   border: 3px solid black;
-  padding: 10px;
-  position: fixed;
+  padding: 15px;
   background: none;
   border-radius: 100px;
+  font-size: 15pt;
 `;
