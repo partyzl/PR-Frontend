@@ -5,7 +5,9 @@ import "./styles.css";
 const LoginPage = () => {
   return (
     <>
-      <LoginButton className="loginBtn" />
+      <div className="loging-body">
+        <LoginButton className="login-btn" />
+      </div>
     </>
   );
 };
