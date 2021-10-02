@@ -11,7 +11,9 @@ function App() {
   return (
     <div className="App">
       <p>App</p>
-      <button onClick={() => handleOnClick(githubProvider)}>Github</button>
+      <button onClick={() => handleOnClick(githubProvider)}>
+        Login With Github
+      </button>
     </div>
   );
 }
