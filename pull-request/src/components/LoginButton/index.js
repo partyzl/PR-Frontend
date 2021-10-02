@@ -11,9 +11,11 @@ const LoginButton = () => {
   };
   return (
     <>
-      <SignUp onClick={() => handleOnClick(githubProvider)}>
-        Login With Github
-      </SignUp>
+      <div className="h-100 row align-items-center">
+        <SignUp onClick={() => handleOnClick(githubProvider)}>
+          Login With Github
+        </SignUp>
+      </div>
     </>
   );
 };
@@ -21,11 +23,7 @@ const LoginButton = () => {
 export default LoginButton;
 
 const SignUp = styled.button`
-  margin-top: 50%;
-  margin-left: 45%;
-  border: 3px solid black;
-  padding: 15px;
   background: none;
   border-radius: 100px;
-  font-size: 15pt;
+  font-size: 20px;
 `;
