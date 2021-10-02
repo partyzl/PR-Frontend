@@ -6,7 +6,6 @@ import { PullRequestItem } from "./components";
 import { MarkdownEditorPage } from "./pages";
 
 import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
   return (
